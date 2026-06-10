@@ -5,6 +5,7 @@ import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/nav-icon2.svg';
 import navIcon3 from '../assets/img/nav-icon3.png';
 import { HashLink } from 'react-router-hash-link';
+import { Github } from 'react-bootstrap-icons';
 import {
   BrowserRouter as Router
 } from "react-router-dom";
@@ -51,6 +52,7 @@ export const NavBar = () => {
             <span className="navbar-text">
               <div className="social-icon">
                 <a href="#home" aria-label="Social link"><img src={navIcon1} alt="Social icon" /></a>
+                <a href="https://github.com/TheShivam114" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile"><Github /></a>
                 <a href="#home" aria-label="Social link"><img src={navIcon3} alt="Social icon" /></a>
                 <a href="#home" aria-label="Social link"><img src={navIcon2} alt="Social icon"/></a>
               </div>

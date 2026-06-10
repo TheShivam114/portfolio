@@ -285,6 +285,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner img {
   animation: updown 3s linear infinite;
 }
+.banner .header-img {
+  max-width: 260px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+}
 @keyframes updown {
     0% {
         transform: translateY(-20px);
@@ -616,3 +623,183 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.5px;
   margin-top: 20px;
 }
+
+/* Responsive Mobile Styles */
+@media (max-width: 1199px) {
+  .project p {
+    width: 80%;
+  }
+  .project .nav.nav-pills {
+    width: 100%;
+  }
+  .skill-slider {
+    width: 100%;
+  }
+}
+
+@media (max-width: 991px) {
+  nav.navbar {
+    padding: 14px 0;
+  }
+  nav.navbar a.navbar-brand {
+    width: auto;
+  }
+  nav.navbar .navbar-nav .nav-link.navbar-link {
+    padding: 0 12px;
+    font-size: 16px;
+  }
+  .navbar-text {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 12px;
+  }
+  .navbar-text button {
+    padding: 12px 22px;
+    margin-left: 0;
+    font-size: 16px;
+  }
+  .banner {
+    padding: 160px 0 60px;
+  }
+  .banner .tagline {
+    font-size: 16px;
+    padding: 6px 8px;
+  }
+  .banner h1 {
+    font-size: 52px;
+  }
+  .banner p {
+    width: 100%;
+    font-size: 17px;
+    margin-bottom: 20px;
+  }
+  .banner button {
+    font-size: 18px;
+    margin-top: 30px;
+  }
+  .skill-bx {
+    padding: 50px 30px;
+  }
+  .skill h2 {
+    font-size: 38px;
+  }
+  .skill p {
+    width: 100%;
+  }
+  .project h2,
+  .contact h2 {
+    font-size: 38px;
+  }
+  .contact {
+    padding: 50px 0 120px;
+  }
+  .contact img {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .newsletter-bx {
+    padding: 55px 35px;
+    margin-top: -80px;
+  }
+  .footer img {
+    width: 45%;
+  }
+}
+
+@media (max-width: 767px) {
+  .banner {
+    padding: 120px 0 50px;
+  }
+  .banner h1 {
+    font-size: 38px;
+  }
+  .banner .tagline {
+    font-size: 14px;
+  }
+  .banner p {
+    font-size: 16px;
+  }
+  .banner button {
+    width: 100%;
+    justify-content: center;
+  }
+  .banner .header-img {
+    max-width: 240px;
+    margin: 30px auto 0;
+    height: auto;
+  }
+  .project {
+    padding: 60px 0;
+  }
+  .project p {
+    width: 100%;
+    font-size: 16px;
+  }
+  .project .nav.nav-pills {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+  }
+  .project .nav.nav-pills .nav-item {
+    width: auto;
+    flex: 1 1 100%;
+  }
+  .project .nav.nav-pills .nav-link {
+    padding: 12px 8px;
+  }
+  .background-image-right,
+  .background-image-left {
+    display: none;
+  }
+  .proj-imgbx {
+    margin-bottom: 28px;
+  }
+  .proj-txtx h4 {
+    font-size: 24px;
+  }
+  .proj-txtx span {
+    font-size: 14px;
+  }
+  .skill-bx {
+    padding: 40px 20px;
+    border-radius: 40px;
+  }
+  .skill-slider .item img {
+    width: 60%;
+  }
+  .contact {
+    padding: 40px 0 80px;
+  }
+  .contact form input,
+  .contact form textarea {
+    padding: 16px 20px;
+    font-size: 16px;
+  }
+  .contact form button {
+    width: 100%;
+    padding: 16px 20px;
+  }
+  .newsletter-bx {
+    padding: 35px 20px;
+    margin-top: -60px;
+  }
+  .new-email-bx {
+    flex-direction: column;
+    gap: 12px;
+  }
+  .new-email-bx button {
+    width: 100%;
+    padding: 16px;
+  }
+  .footer {
+    padding-bottom: 40px;
+  }
+  .footer img {
+    width: 60%;
+    margin: 0 auto;
+    display: block;
+  }
+}
+

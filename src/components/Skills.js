@@ -38,19 +38,19 @@ export const Skills = () => {
                         <p>I am continuously learning and improving my skills to develop <br></br> efficient, scalable, and high-quality applications that deliver value to users.</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src={meter1} alt="Skill meter" />
                                 <h5>HTML,CSS & JAVASCRIPT <br></br>TailwindCSS & Bootstrap</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="Image" />
+                                <img src={meter2} alt="Skill meter" />
                                 <h5>REACT & NEXT.JS</h5>
                             </div>
                             <div className="item">
-                                <img src={meter3} alt="Image" />
+                                <img src={meter3} alt="Skill meter" />
                                 <h5>Programming Languages<br></br>C,JAVA</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src={meter1} alt="Skill meter" />
                                 <h5>Web Development</h5>
                             </div>
                         </Carousel>
@@ -58,7 +58,7 @@ export const Skills = () => {
                 </div>
             </div>
         </div>
-        <img className="background-image-left" src={colorSharp} alt="Image" />
+        <img className="background-image-left" src={colorSharp} alt="" />
     </section>
   )
 }
